@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<contacts>
+    <contact>
+        <id></id>
+        <forename></forename>
+        <surname></surname>
+        <phone></phone>
+        <email></email>
+        <instagram></instagram>
+    </contact>
+</contacts>
