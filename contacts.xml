@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <contacts>
     <contact>
-        <id></id>
-        <forename></forename>
-        <surname></surname>
-        <phone></phone>
-        <email></email>
-        <instagram></instagram>
+        <id>1</id>
+        <firstname>Nikolas</firstname>
+        <lastname>Laus</lastname>
+        <phone>+37255555555</phone>
+        <email>bchik3@gmail.com</email>
+        <instagram>blinchkje</instagram>
     </contact>
 </contacts>
