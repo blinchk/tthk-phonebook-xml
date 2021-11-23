@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -51,7 +49,7 @@
     }
     ?>
     <form method="post">
-        <button type="submit" name="convertToJSON">Convert to JSON</button>
+        <button type="submit" class="button" name="convertToJSON">Convert to JSON</button>
     </form>
     <link rel="stylesheet" href="index.css">
 </body>

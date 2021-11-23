@@ -1,4 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+html{
+    font-family: 'Outfit', sans-serif;
+}
+
 #contacts-table td {
     padding: 10px;
+    text-align: center;
+}
+
+#contacts-table th{
+    padding: 10px;
+    text-align: center;
+    table-layout: auto;
+    margin: auto;
+}
+
+#contacts-table{
+
+}
+.button{
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.66);
+    color: white;
+    border: none;
+    border-radius: 5%;
+    font-size: 15px;
     text-align: center;
 }
