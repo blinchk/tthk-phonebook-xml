@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -35,6 +37,22 @@
     }
     ?>
     </table>
+    <?php
+    if(array_key_exists('convertToJSON', $_POST)){
+        convertToJSON($contacts);
+    }
+
+    function convertToJSON($xml){
+        $json = json_encode($xml);
+        $file = "contacts.json";
+        $file_json = fopen($file, "w") or die ("Unable to open file!");
+        fwrite($file_json, $json);
+        fclose($file_json);
+    }
+    ?>
+    <form method="post">
+        <button type="submit" name="convertToJSON">Convert to JSON</button>
+    </form>
     <link rel="stylesheet" href="index.css">
 </body>
 </html>
