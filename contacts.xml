@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<contacts>
-    <contact>
-        <id>1</id>
-        <firstname>Nikolas</firstname>
-        <lastname>Laus</lastname>
-        <phone>+37255555555</phone>
-        <email>bchik3@gmail.com</email>
-        <instagram>takoyseberock</instagram>
+<?xml version="1.0" encoding="utf-8"?>
+<phonebook>
+  <contacts>
+    <contact id="334">
+      <firstname>Karim</firstname>
+      <lastname>Jalgpall</lastname>
+      <phone>+3758045554</phone>
+      <email>karim@gmail.com</email>
+      <instagram>basharovkrasava</instagram>
     </contact>
-</contacts>
+  </contacts>
+</phonebook>

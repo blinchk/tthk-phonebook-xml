@@ -16,8 +16,8 @@ html{
     margin: auto;
 }
 
-#contacts-table{
-
+#contacts-table tr:nth-child(2n + 1){
+    background-color: aliceblue;
 }
 .button{
     padding: 10px;
@@ -27,4 +27,16 @@ html{
     border-radius: 5%;
     font-size: 15px;
     text-align: center;
+    margin: 5px 10px 0 0;
+    cursor: pointer;
+}
+.formInput{
+    margin: 5px 5px 0 0;
+}
+input{
+    border-style: solid;
+    border-color: #939393;
+    border-width: 2px;
+    size: 20px;
+    box-shadow: 0 1px 2px 0 #3d3d3d;
 }
