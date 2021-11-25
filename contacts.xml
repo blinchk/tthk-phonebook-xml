@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <phonebook>
   <contacts>
-    
+    <contact id="4">
+      <firstname>Karim</firstname>
+      <lastname>Mirak</lastname>
+      <phone>5855454</phone>
+      <email>karim@mail.com</email>
+      <instagram>basharov</instagram>
+    </contact>
   </contacts>
 </phonebook>

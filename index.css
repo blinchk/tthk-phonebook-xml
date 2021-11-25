@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 html{
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Arimo', sans-serif;
+}
+
+#contacts-table{
+    border-collapse: collapse;
 }
 
 #contacts-table td {
@@ -39,4 +42,10 @@ input{
     border-width: 2px;
     size: 20px;
     box-shadow: 0 1px 2px 0 #3d3d3d;
+}
+
+#editing{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
