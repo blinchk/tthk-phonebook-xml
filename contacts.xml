@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <phonebook>
   <contacts>
-    <contact id="334">
-      <firstname>Karim</firstname>
-      <lastname>Jalgpall</lastname>
-      <phone>+3758045554</phone>
-      <email>karim@gmail.com</email>
-      <instagram>basharovkrasava</instagram>
-    </contact>
+    
   </contacts>
 </phonebook>
