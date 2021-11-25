@@ -5,6 +5,7 @@ html{
 
 #contacts-table{
     border-collapse: collapse;
+
 }
 
 #contacts-table td {
@@ -17,6 +18,7 @@ html{
     text-align: center;
     table-layout: auto;
     margin: auto;
+
 }
 
 #contacts-table tr:nth-child(2n + 1){
@@ -48,4 +50,13 @@ input{
     background-color: transparent;
     border: none;
     cursor: pointer;
+}
+
+a{
+    color: black;
+    transition: 0.15s ease-in-out;
+}
+
+a:hover{
+    color: red;
 }
