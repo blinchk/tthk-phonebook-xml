@@ -54,9 +54,10 @@ input{
 
 a{
     color: black;
-    transition: 0.15s ease-in-out;
+    transition: 0.55s ease-in-out;
 }
 
-a:hover{
+a span:hover{
     color: red;
+    transform: translateY(-1px);
 }

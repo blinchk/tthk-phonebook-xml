@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <phonebook>
   <contacts>
-    <contact id="4">
-      <firstname>Karim</firstname>
-      <lastname>Mirak</lastname>
-      <phone>5855454</phone>
-      <email>karim@mail.com</email>
-      <instagram>basharov</instagram>
+    <contact id="373">
+      <firstname>Rostek</firstname>
+      <lastname>Konovalov</lastname>
+      <phone>58041121</phone>
+      <email>krostislav@gmail.pl</email>
+      <instagram>124124</instagram>
+    </contact>
+    <contact id="200">
+      <firstname>Nekolas</firstname>
+      <lastname>Laus</lastname>
+      <phone>58912314</phone>
+      <email>bchik@zimbabwemail.ee</email>
+      <instagram>123124154</instagram>
+    </contact>
+    <contact id="209">
+      <firstname>Vladek</firstname>
+      <lastname>Narozhni</lastname>
+      <phone>5981928</phone>
+      <email>vladnarozni@mail.ee</email>
+      <instagram>515151515</instagram>
+    </contact>
+    <contact id="340">
+      <firstname>Ljeeev</firstname>
+      <lastname>Petryakov</lastname>
+      <phone>59991192</phone>
+      <email>levpetryakov@yandex.uk</email>
+      <instagram>15125125</instagram>
     </contact>
   </contacts>
 </phonebook>
