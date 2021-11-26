@@ -2,22 +2,28 @@
 $file = "contacts.xml";
 $contacts = simplexml_load_file($file);
 
+// Recognize methods from requests parameters in POST request
+// Recognize request to convert XML to JSON
 if (array_key_exists('convertToJSON', $_POST)) {
     convertToJSON($contacts);
 }
 
+// Recognize request to send current data to XML
 if (isset($_POST['sendDataToXml'])) {
     sendDataToXml($contacts);
 }
 
+// Recognize request to delete contact from XML
 if (isset($_GET['delete'])) {
     deleteDataFromXml($contacts);
 }
 
+// Recognize request to edit contact in XML
 if (isset($_POST['editing'])) {
     editData($contacts);
 }
 
+// Convert XML to JSON
 function convertToJSON($xml)
 {
     $json = json_encode($xml);
@@ -28,6 +34,7 @@ function convertToJSON($xml)
     downloadFile($file);
 }
 
+// Download created file by filename
 function downloadFile($filename){
 
     $contents = file_get_contents($filename);
@@ -40,6 +47,7 @@ function downloadFile($filename){
     exit();
 }
 
+// Send data from HTML table to XML
 function sendDataToXml($xml)
 {
     $xmlDoc = new DOMDocument("1.0", "UTF-8");
@@ -64,6 +72,7 @@ function sendDataToXml($xml)
     header('refresh: 0, url=index.php');
 }
 
+// Delete data from XML
 function deleteDataFromXml($xml)
 {
     $id = $_GET['delete'];
@@ -81,6 +90,7 @@ function deleteDataFromXml($xml)
     header('refresh: 0, url=index.php');
 }
 
+// Edit data in XML
 function editData($xml)
 {
     $id = $_GET['edit'];
